@@ -1,0 +1,8 @@
+# Face Recognition Attendance System — Dependencies
+# Install with: pip install -r requirements.txt
+
+face_recognition      # 128-D face embeddings + comparison (CPU-only)
+opencv-python         # Webcam capture and frame annotation
+numpy                 # Vector math (cosine similarity)
+cmake                 # Required to build dlib (face_recognition dependency)
+dlib                  # C++ ML library used by face_recognition
